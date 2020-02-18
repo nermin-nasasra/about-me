@@ -5,24 +5,38 @@
       }
 
 
+     body{
+          background-color: darkgrey;
+          border: 20px;
+      }
     h1{
         text-align: center;
         
-        background-color: darkgray;
-        border: 10px;
+     
+        
+        margin: 10px 10px 10px 10px;
 
 
     }
 
-    ul  {
+  
+nav ul {
+    
+    text-align: left;
+   background-color: indianred;
+    border: solid;
 
-        border: 10px solid;
-        background-color: coral;
-
-    }
-li{
-    text-align: center;
-    color: black;
-    padding: 14px 16px;
+}
+nav ul li{
+   background-color: palevioletred;
+   padding: 10px 10px 10px 10px;
 }
 
+ul {
+    border:5px solid;
+    text-align: center;
+    color: black;
+    padding: 15px 15px 15px 15px;
+    margin-left: 35px;
+    background-color: slategrey;
+}
