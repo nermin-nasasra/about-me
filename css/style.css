@@ -1,21 +1,23 @@
 
     title{
         text-align:center;
-        color: black;
+        
       }
 
 
     h1{
         text-align: center;
-        border: brown;
+        
         background-color: darkgray;
+        border: 10px;
+
 
     }
 
     ul  {
 
-        border: 30px solid;
-        background-color: crimson;
+        border: 10px solid;
+        background-color: coral;
 
     }
 li{
@@ -23,3 +25,4 @@ li{
     color: black;
     padding: 14px 16px;
 }
+
