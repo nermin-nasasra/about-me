@@ -149,5 +149,5 @@ for (var i2 = 0; i2 < 6; i2++) {
 alert('my favourit colors :red, black, green, yallow, blue and brown');
 }
 alert('your score is ' + score);
-document.write('welcome ' + name + 'your score ' + score);
+document.write('welcome ' + userName + ' your score ' + score+' of 7');
 
