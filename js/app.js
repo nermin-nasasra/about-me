@@ -4,12 +4,11 @@ var score = 0;
 
 var userName = prompt('whats your name?');
 alert('welcome ' + userName);
-
-//document.write('welcome ');
-//document.write(userName);
-
 confirm('I will ask you som question about me please answer it yes/y or no/n');
-
+me();
+friends();
+favourit();
+function me(){
 var know = prompt('I am studded a computer engineering?');
 console.log(know);
 
@@ -100,12 +99,12 @@ case 'n':
 default:
   alert('wrong answer');
 }
+}
 
 
 
 
-
-
+function friends (){
 for (var i = 0; i < 4; i++) {
   var meet = prompt('How many tiems a week did i meet my friends?');
   console.log(meet);
@@ -125,8 +124,10 @@ for (var i = 0; i < 4; i++) {
 
   }
 }
+}
 
 
+function favourit(){
 for (var i2 = 0; i2 < 6; i2++) {
   var arry = ['red', 'black', 'green', 'yallow', 'blue', 'brown'];
   var color = prompt('choose my favourit color ');
@@ -137,7 +138,7 @@ for (var i2 = 0; i2 < 6; i2++) {
     score = score + 1;
     break;
 
-  } else if(color !== arry[0] || color !== arry[2] || color !== arry[3] || color !== arry[4] || color !== arry[5])
+  } else 
   {
     alert('Nooo, this is not my favourit color ');
 
@@ -146,6 +147,7 @@ for (var i2 = 0; i2 < 6; i2++) {
 
 }
 alert('my favourit colors :red, black, green, yallow, blue and brown');
+}
 alert('your score is ' + score);
 document.write('welcome ' + name + 'your score ' + score);
 
