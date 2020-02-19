@@ -1,9 +1,5 @@
 
-    title{
-        text-align:center;
-        
-      }
-
+    
 
      body{
           background-color: darkgrey;
@@ -11,6 +7,7 @@
       }
     h1{
         text-align: center;
+        font-weight: bold;
         
      
         
@@ -23,7 +20,7 @@
 nav ul {
     
     text-align: left;
-   background-color: indianred;
+   background-color: lightpink;
     border: solid;
 
 }
@@ -37,6 +34,9 @@ ul {
     text-align: center;
     color: black;
     padding: 15px 15px 15px 15px;
-    margin-left: 35px;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-right: 300px;
     background-color: slategrey;
 }
+
