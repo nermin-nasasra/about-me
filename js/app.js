@@ -5,9 +5,11 @@ var score = 0;
 var userName = prompt('whats your name?');
 alert('welcome ' + userName);
 confirm('I will ask you som question about me please answer it yes/y or no/n');
+
 me();
 friends();
 favourit();
+
 function me(){
 var know = prompt('I am studded a computer engineering?');
 console.log(know);
@@ -130,7 +132,7 @@ for (var i = 0; i < 4; i++) {
 function favourit(){
 for (var i2 = 0; i2 < 6; i2++) {
   var arry = ['red', 'black', 'green', 'yallow', 'blue', 'brown'];
-  var color = prompt('choose my favourit color ');
+  var color =prompt('choose my favourit color ').toLowerCase();
   console.log(color);
 
   if (color==arry[0] ||color==arry[1] || color==arry[2] ||color==arry[3] || color==arry[4] ||color==arry[5]) {

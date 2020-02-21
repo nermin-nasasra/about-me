@@ -1,42 +1,117 @@
 
-    
-
      body{
           background-color: darkgrey;
           border: 20px;
       }
+
     h1{
         text-align: center;
         font-weight: bold;
-        
-     
-        
-        margin: 10px 10px 10px 10px;
-
-
+        margin: 5px ;
+        font-size: 20px;
     }
 
-  
 nav ul {
     
     text-align: left;
-   background-color: lightpink;
     border: solid;
-
-}
-nav ul li{
+   margin: 2px 150px 2px 150px;
    background-color: palevioletred;
-   padding: 10px 10px 10px 10px;
 }
 
-ul {
-    border:5px solid;
+nav ul li{
+ 
+   padding: 10px;
+}
+
+#top{
+text-align: center;
+margin: 20px;
+font-weight: bold;
+font-style: italic;
+font-size: 20px;
+}
+
+#num1 {
+    border:2px solid Tomato;
+    padding: 5px ;
+    margin: 2px 600px 2px 600px;
     text-align: center;
-    color: black;
-    padding: 15px 15px 15px 15px;
-    margin-left: 200px;
-    margin-top: 10px;
-    margin-right: 300px;
-    background-color: slategrey;
+   
 }
 
+#num2{
+    border:2px solid cyan;
+    padding: 5px ;
+    margin: 2px 550px 2px 550px;
+    text-align: center;
+}
+
+#num3{
+    border:2px solid blue;
+    padding: 5px ;
+    margin: 2px 500px 2px 500px;
+    text-align: center;
+}
+
+#num4{
+    border:2px solid black;
+    padding: 5px ;
+    margin: 2px 450px 2px 450px;
+    text-align: center;
+}
+
+#num5{
+    border:2px solid yellow;
+    padding: 5px ;
+    margin: 2px 400px 2px 400px;
+    text-align: center;
+}
+
+#num6{
+    border:2px solid green;
+    padding: 5px ;
+    margin: 2px 350px 2px 350px;
+    text-align: center;
+}
+
+#num7{
+    border:2px solid red;
+    padding: 5px ;
+    margin: 2px 300px 2px 300px;
+    text-align: center;
+}
+
+#num8{
+    border:2px solid rgb(240, 9, 105);
+    padding: 5px ;
+    margin: 2px 250px 2px 250px;
+    text-align: center;
+}
+
+#num9{
+    border:2px solid darkviolet;
+    padding: 5px ;
+    margin: 2px 200px 2px 200px;
+    text-align: center;
+}
+
+#num10{
+    border:2px solid darkred;
+    padding: 5px ;
+    margin: 2px 150px 2px 150px;
+    text-align: center;
+}
+
+
+.button {
+    background-color: rgb(73, 6, 40);
+    border: none;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin:2px;
+    cursor: pointer;}
